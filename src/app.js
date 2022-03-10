@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 const Joi = require('joi')
 const schema = require('./schema')
 
-const notes = [{title: 'Nota 1', id: '1', description: 'estudiar express'}, {title: 'Nota 2', id: '2', description: 'pasear al perro'}]
+const notes = [{title: 'Nota 1', id: '1', description: 'estudiar express framework'}, {title: 'Nota 2', id: '2', description: 'pasear al perro'}]
 //notes should have a title, id and a description
 
 app.use(express.json())
